@@ -1,0 +1,17 @@
+分类模型训练集已转换完成！
+分类模型测试集已转换完成！
+slurmstepd-dell-gpu-22: error: *** JOB 43560 ON dell-gpu-22 CANCELLED AT 2020-06-16T19:37:55 ***
+Traceback (most recent call last):
+  File "/home/LAB/liqian/test/game/Fin/CCKS-Mrc/get_submission.py", line 79, in <module>
+    merge_type_lst()
+  File "/home/LAB/liqian/test/game/Fin/CCKS-Mrc/get_submission.py", line 38, in merge_type_lst
+    sample_lst = get_sample_lst()
+  File "/home/LAB/liqian/test/game/Fin/CCKS-Mrc/get_submission.py", line 12, in get_sample_lst
+    data = json.loads(data)
+  File "/home/LAB/liqian/anaconda3/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/LAB/liqian/anaconda3/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/LAB/liqian/anaconda3/lib/python3.6/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 72 (char 71)
