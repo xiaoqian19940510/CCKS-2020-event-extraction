@@ -11,8 +11,7 @@
 
 ### MRC
 
-
-
+  ![image](https://github.com/xiaoqian19940510/CCKS-2020-event-extraction/blob/main/pictures/1.png)
 
 ## 示例数据：
 
