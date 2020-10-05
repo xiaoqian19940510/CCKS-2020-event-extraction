@@ -11,6 +11,12 @@
 
 ### MRC
 
+#### 事件模板：构建事件模板
+
+#### 事件检测：识别事件所属的类别，是基于BERT的文本多分类问题
+
+#### 事件论元抽取：根据事件类型所对应的模板，抽取对应的要素，是基于BERT的阅读理解问题
+
   ![image](https://github.com/xiaoqian19940510/CCKS-2020-event-extraction/blob/main/pictures/1.png)
 
 ## 示例数据：
